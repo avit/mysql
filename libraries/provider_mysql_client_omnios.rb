@@ -15,12 +15,20 @@ class Chef
             package 'database/mysql-55' do
               action :install
             end
+
+            package 'database/mysql-55/library' do
+              action :install
+            end
           end
         end
 
         action :delete do
           converge_by 'omnios pattern' do
             package 'database/mysql-55' do
+              action :remove
+            end
+
+            package 'database/mysql-55/library' do
               action :remove
             end
           end
