@@ -1,9 +1,8 @@
 name		          'mysql'
-maintainer        'Opscode, Inc.'
-maintainer_email  'cookbooks@opscode.com'
+maintainer        'Chef Software, Inc.'
+maintainer_email  'cookbooks@getchef.com'
 license           'Apache 2.0'
-description       'Installs and configures mysql for client or server'
-long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+description       'Provides mysql_service and mysql_client resources'
 
 version           '4.1.3'
 
