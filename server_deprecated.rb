@@ -1,6 +1,5 @@
-#
-# Cookbook Name:: mysql
-# Recipe:: server-deprecated
+# Mysql Cookbook
+# mysql::server_deprecated
 #
 # Copyright 2008-2013, Chef Software, Inc.
 #

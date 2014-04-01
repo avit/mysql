@@ -27,7 +27,7 @@ lets the user supply the configuration.
 Limited backwards compatibility has been added to aide the transition.
 The old template is available at
 `templates/default/deprecated/my.cnf.erb`, and a recipe has been
-supplied that consumes it. Please use `mysql::server-deprecated` for
+supplied that consumes it. Please use `mysql::server_deprecated` for
 the old behavior.
 
 The `mysql::ruby` recipe has been moved into its own cookbook. Please

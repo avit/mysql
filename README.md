@@ -90,7 +90,7 @@ placed in the platform's native location.
 
 Include `'recipe[mysql::server]'` or `'recipe[mysql::client]'` in your run_list.
 
-### Wrapper cookbook for a server instance
+### Wrapper cookbook
 
     node.set['mysql']['server_root_password'] = 'yolo'
     node.set['mysql']['port'] = '3308'
